@@ -25,13 +25,13 @@
   inset: 0;
 }
 .background-img {
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 10px 0px;
   display: flex;
   flex-direction: column;
   gap: 0px;
   align-items: center;
   justify-content: center;
-  height: 733.47px;
+  height: 734.47px;
   position: absolute;
   right: -0.67%;
   left: -0.67%;
@@ -47,7 +47,7 @@
 }
 .rectangle-4 {
   background: rgba(0, 0, 0, 0.22);
-  height: 728px;
+  height: 724px;
   position: absolute;
   right: 0%;
   left: 0.07%;
