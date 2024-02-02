@@ -304,10 +304,9 @@
 .section-2-heading {
   display: flex;
   flex-direction: row;
-  gap: 0px;
+  gap: 30px;
   align-items: flex-start;
   justify-content: center;
-  width: 100%;
 }
 .title-arrow-right-1 {
   flex-shrink: 0;
