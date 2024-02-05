@@ -2,7 +2,6 @@
 .forest * {
   box-sizing: border-box;
 }
-@media (min-width:991px){
 .forest {
   background: #ffffff;
   display: flex;
@@ -2693,7 +2692,7 @@
 .max-width-of-767{
   display: none;
 }
-}
+
 @media (max-width:991px) {
   .nav-group{
     display: none;
@@ -2918,6 +2917,7 @@
   align-self:center;
   flex-shrink: 0;
   position: relative;
+  height: 1110px;
 }
 .section-2 {
   display: flex;
@@ -2927,8 +2927,8 @@
   justify-content: center;
   width: 638px;
   position: absolute;
-  left: calc(50% - 318.5px);
-  top: calc(48% - 653.94px);
+  left: calc(50% - 308.5px);
+  top: calc(37% - 653.94px);
   padding-top: 20%;
 }
 .group-4 {
@@ -5525,7 +5525,7 @@
   position: absolute;
   right: 85.47%;
   left: 0%;
-  width: 14.53%;
+  width: 25.53%;
   top: -0.1px;
 }
 .alogo-1-1 {
@@ -5595,8 +5595,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 1100px;
-  left: calc(56% - 318.5px);
+  height: 1200px;
+  left: calc(54% - 308.5px);
+  top: calc(45% - 653.94px);
   position: absolute;
   width: 570px;
 }
