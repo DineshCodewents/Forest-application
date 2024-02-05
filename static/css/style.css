@@ -2,6 +2,7 @@
 .forest * {
   box-sizing: border-box;
 }
+@media (min-width:991px){
 .forest {
   background: #ffffff;
   display: flex;
@@ -2325,7 +2326,6 @@
   position: relative;
   align-self: stretch;
   flex: 1;
-  display: flex;
   align-items: center;
   justify-content: flex-start;
 }
@@ -2686,6 +2686,13 @@
   font-size: 16px;
   font-weight: 400;
   text-decoration: underline;
+}
+.min-width-of-767{
+  display: block;
+}
+.max-width-of-767{
+  display: none;
+}
 }
 @media (max-width:991px) {
   .nav-group{
@@ -5338,5 +5345,2498 @@
   justify-content: center;
   align-items: center;
 }
-
 } 
+@media (max-width:767px){
+  .min-width-of-767{
+    display: none;
+  }
+  .max-width-of-767{
+    display: block;
+  }
+  .forest-767,
+.forest-767 * {
+  box-sizing: border-box;
+}
+.forest-767 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.section-1 {
+  padding: 10px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 776px;
+  position: relative;
+}
+.section-1-grp {
+  position: absolute;
+  inset: 0;
+}
+.background-img {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 729.18px;
+  position: absolute;
+  width: 99.83%;
+  top: 0px;
+}
+.forest-sec-1-1 {
+  flex-shrink: 0;
+  width: 1440px;
+  height: 729px;
+  position: relative;
+  object-fit: cover;
+}
+.rectangle-4 {
+  background: rgba(0, 0, 0, 0.22);
+  height: 718px;
+  position: absolute;
+  right: 0.1%;
+  left: 0.1%;
+  width: 99.8%;
+  top: 0px;
+}
+.atoms-icons-illustration-urban-forestry-1 {
+  background: #000000;
+  border-radius: 100px;
+  width: 106px;
+  height: 111px;
+  position: absolute;
+  left: calc(50% - 52.5px);
+  top: 663.56px;
+  overflow: hidden;
+}
+.desktop-wireframes-with-annotations-june-23 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.heading-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 300px;
+  position: absolute;
+  right: 20.08%;
+  left: 4.84%;
+  width: 75.08%;
+  top: 234px;
+}
+.tree-equity {
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: relative;
+  width: 366px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tree-equity-span {
+  color: #ffffff;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.tree-equity-span2 {
+  color: #000000;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.tree-equity-span3 {
+  color: #74ff06;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+.trees-are-life-saving-infrastructure {
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.trees-are-life-saving-infrastructure-span {
+  color: #fdfdfd;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.trees-are-life-saving-infrastructure-span2 {
+  color: #70ff00;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.trees-are-life-saving-infrastructure-span3 {
+  color: #61ff00;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.trees-are-life-saving-infrastructure-span4 {
+  color: #fdfdfd;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.nav-section {
+  background: rgba(116, 255, 6, 0.6);
+  height: 58px;
+  position: absolute;
+  right: -0.1%;
+  left: 0%;
+  width: 100%;
+  top: -0.44px;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.logo-section {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 59.1px;
+  position: absolute;
+  right: 85.47%;
+  left: 0%;
+  width: 14.53%;
+  top: -0.1px;
+}
+.alogo-1-1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.nav-links {
+  padding: 3px 10px 3px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  height: 60px;
+  position: absolute;
+  right: 0%;
+  left: 23.61%;
+  width: 76.39%;
+  top: -1px;
+}
+.hamburger-menu {
+  flex-shrink: 0;
+  width: 32px;
+  height: 20px;
+  position: relative;
+}
+.rectangle-11 {
+  background: #000000;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 80%;
+  top: 0%;
+  height: 20%;
+}
+.rectangle-12 {
+  background: #000000;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 40%;
+  top: 40%;
+  height: 20%;
+}
+.rectangle-13 {
+  background: #000000;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 80%;
+  height: 20%;
+}
+.section-2-frame {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1260px;
+  position: relative;
+}
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1100px;
+  left: calc(56% - 318.5px);
+  position: absolute;
+  width: 570px;
+}
+.group-4 {
+  flex-shrink: 0;
+  width: 638px;
+  height: 46px;
+  position: static;
+}
+.section-2-heading {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 46px;
+  position: relative;
+  right: 14.15%;
+  left: 14.15%;
+  width: 71.71%;
+  top: 0px;
+}
+.title-arrow-right-1 {
+  flex-shrink: 0;
+  width: 207.78px;
+  height: 24.14px;
+  position: relative;
+  overflow: hidden;
+}
+.group3 {
+  height: auto;
+  position: absolute;
+  right: 0.43%;
+  left: 0.43%;
+  width: 99.15%;
+  bottom: 0.81%;
+  top: 2.42%;
+  height: 96.77%;
+  overflow: visible;
+}
+.why-it-matters {
+  color: #001502;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  flex: 1;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-arrow-left-1 {
+  flex-shrink: 0;
+  width: 207.78px;
+  height: 24.14px;
+  position: relative;
+  overflow: hidden;
+}
+.group4 {
+  height: auto;
+  position: absolute;
+  right: 0.43%;
+  left: 0.43%;
+  width: 99.15%;
+  bottom: 2.42%;
+  top: 0.81%;
+  height: 96.77%;
+  overflow: visible;
+}
+.tree-cities-txt {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  height: 160px;
+  position: relative;
+}
+.trees-in-cities-provide-health-employment-and-climate-resiliency-benefits-that-everyone-should-have-they-help-fulfill-our-basic-needs-such-as-breathing-fresh-air-and-drinking-clean-water-trees-also-cool-neighborhoods-which-reduces-heat-related-illnesses-and-utility-costs-and-generate-wealth-by-creating-tree-related-career-opportunities-much-like-buildings-streets-and-sewer-lines-trees-are-critical-infrastructure-that-improve-our-quality-of-life {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.planting-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+.baby-planting {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 540px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.in-cities-txt {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  height: 120px;
+  position: relative;
+}
+.in-cities-nationwide-city-trees-already-prevent-approximately-1-200-heat-related-deaths-and-countless-heat-relatedillnesses-annually-by-creating-tree-equity-we-can-save-lives-and-slow-climate-change-photo-credit-evan-frost-american-forests {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tree-cover-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  position: relative;
+}
+.but-a-map-of-tree-cover-in-america-s-cities-is-too-often-a-map-of-income-and-race-that-s-because-due-to-decades-of-redlining-and-other-discriminatory-policies-trees-are-often-sparse-in-neighborhoods-with-more-low-income-families-and-people-of-color-studies-show-that-the-neighborhoods-that-were-redlined-have-fewer-trees-preventing-the-people-living-there-from-reaping-the-benefits-trees-provide {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.goals-section {
+  padding: 14px 0px 14px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 500px;
+  position: relative;
+}
+.to-do-txt {
+  padding: 19px 0px 19px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 119px;
+}
+.to-do-this-we-strive-to-achieve-these-three-goals-by-2030 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  flex: 1;
+  height: 28px;
+}
+.goals-card {
+  flex-shrink: 0;
+  width: 575px;
+  height: 403.2px;
+  position: static;
+}
+.goals-card-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 403.2px;
+  position: absolute;
+  right: 12.52%;
+  left: 12.52%;
+  width: 74.97%;
+  top: calc(50% - 132.1px);
+}
+.goals-card-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.social-equity-1 {
+  background: #010f05;
+  border-radius: 100px;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-wireframes-with-annotations-june-232 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+._100-cities {
+  color: #010f05;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._100-american-cities-have-achieved-tree-equity-by-taking-action-to-ensure-every-neighborhood-has-a-passing-tree-equity-score {
+  color: #052b0f;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goals-card-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.tree-equity-1 {
+  background: #010f05;
+  border-radius: 100px;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-wireframes-with-annotations-june-233 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.more-jobs {
+  color: #010f05;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+._100-000-people-many-from-marginalized-communities-have-newly-entered-careers-in-forestry {
+  color: #052b0f;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goals-card-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.tree-equity-2 {
+  background: #010f05;
+  border-radius: 100px;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-wireframes-with-annotations-june-234 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.healthy-people {
+  color: #010f05;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create-heat-resilient-communities-in-urbanized-america-by-planting-and-maintaining-trees-in-neighborhoods-that-need-them-the-most {
+  color: #052b0f;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-forest {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 611px;
+  position: relative;
+  overflow: hidden;
+}
+.slides-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 619px;
+  position: absolute;
+  right: -2880px;
+  left: 0px;
+  top: 0px;
+}
+.slide {
+  background: linear-gradient(
+    100.14deg,
+    rgba(40, 238, 8, 1) 0%,
+    rgba(22, 114, 48, 0.6) 52.99999713897705%,
+    rgba(10, 146, 64, 0.6) 95.99999785423279%
+  );
+  flex: 1;
+  height: 619px;
+  position: relative;
+  overflow: hidden;
+}
+.phoenix {
+  position: absolute;
+  inset: 0;
+}
+.phoenix-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  height: 364px;
+  position: absolute;
+  right: 12.85%;
+  left: 12.92%;
+  width: 74.24%;
+  top: calc(50% - 195.5px);
+}
+.phoenix2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+}
+.the-phoenix-is-a-legendary-creature-that-appears-in-the-mythology-of-various-cultures-throughout-history-often-associated-with-renewal-resurrection-and-immortality-the-phoenix-has-captured-the-human-imagination-for-centuries-let-s-explore-the-mythical-symbolism-and-cultural-significance-of-the-phoenix {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phoenix-btn {
+  background: #e7b70f;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  position: relative;
+}
+.learn-more {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide2 {
+  background: #52e20e;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 619px;
+  position: relative;
+  overflow: hidden;
+}
+.rhode-island {
+  position: absolute;
+  inset: 0;
+}
+.rhode-island-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 356.12px;
+  position: absolute;
+  right: 12.71%;
+  left: 12.71%;
+  width: 74.58%;
+  top: calc(50% - 214.5px);
+}
+.rhode-island2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  width: 426px;
+  height: 113.77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rhode-island-the-smallest-state-in-the-united-states-may-be-modest-in-size-but-it-boasts-a-rich-history-diverse-culture-and-a-unique-identity-known-as-the-ocean-state-rhode-island-s-maritime-heritage-colonial-past-and-vibrant-communities-contribute-to-its-distinctive-character {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  height: 162.36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rhode-island-btn {
+  background: #e7b70f;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  position: relative;
+}
+.slide3 {
+  background: #008726;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 619px;
+  position: relative;
+  overflow: hidden;
+}
+.see-all-txt {
+  position: absolute;
+  inset: 0;
+}
+.se-all-location-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 338.12px;
+  position: absolute;
+  right: 12.71%;
+  left: 12.71%;
+  width: 74.58%;
+  top: calc(50% - 214.5px);
+}
+.see-all-location {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  position: relative;
+  width: 513px;
+  height: 113.77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learn-about-our-tree-equity-work-in-other-cities-like-chicago-and-miami {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  height: 162.36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.see-all-btn {
+  background: #e7b70f;
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  position: relative;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 47.15%;
+  left: 47.15%;
+  width: 5.69%;
+  bottom: 28px;
+}
+.ellipse-1 {
+  background: linear-gradient(to left, #000000, #000000),
+    linear-gradient(to left, #000000, #000000);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.ellipse-2 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.ellipse-3 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.arrows-next {
+  border-radius: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 93.89%;
+  width: 6.11%;
+  bottom: 269px;
+  top: 268px;
+  overflow: visible;
+}
+.arrows {
+  border-radius: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  position: absolute;
+  right: 93.89%;
+  left: 0%;
+  width: 6.11%;
+  bottom: 269px;
+  top: 268px;
+  overflow: visible;
+}
+.enquity-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 2128px;
+  position: relative;
+}
+.tree-enquity-grp {
+  flex-shrink: 0;
+  width: 575px;
+  height: 752.44px;
+  position: static;
+}
+.tree-equity2 {
+  padding: 40px 0px 40px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 575px;
+  height: 752.44px;
+  position: absolute;
+  left: calc(50% - 287.5px);
+  top: 34.78px;
+}
+.how-we-create-tree-equity-in-every-city {
+  color: #000000;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 28px;
+}
+.tree-equity-card {
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 653px;
+  position: relative;
+}
+.tree-equity-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 338px;
+  position: relative;
+}
+.urbenforest-1 {
+  border-radius: 15px;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.equity-txt {
+  align-self: stretch;
+  flex: 1;
+  position: static;
+}
+.tree-equity-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  width: 535px;
+  height: 230px;
+  position: absolute;
+  left: calc(50% - 267.5px);
+  top: 393px;
+}
+.we-lead-in-urban-forestry-innovation {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.in-our-innovation-lab-we-solve-complicated-puzzles-that-empower-the-urban-forestry-field-we-provide-climate-change-informed-forestry-best-practices-when-determining-what-trees-to-plant-where-to-plant-them-and-how-to-take-care-of-them-and-we-maintain-tree-equity-score-our-tool-that-trees-provide {
+  color: #052b0f;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tree-equity-btn {
+  background: linear-gradient(
+    90.59deg,
+    rgba(23, 66, 2, 0.9) 0%,
+    rgba(11, 167, 17, 1) 50.587332248687744%,
+    rgba(23, 66, 2, 0.99) 100%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  height: 45px;
+  position: relative;
+  align-self: auto;
+}
+.explore-the-innovation-lab {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.urban-forestry-section {
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 575px;
+  height: 653px;
+  position: relative;
+}
+.urban-forestry-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 338px;
+  position: relative;
+}
+.planting-1 {
+  border-radius: 15px;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.urban-forestry-txt {
+  align-self: stretch;
+  flex: 1;
+  position: static;
+}
+.tree-equity-txt2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  position: absolute;
+  right: 3.48%;
+  left: 3.48%;
+  width: 93.04%;
+  top: calc(50% - -66.5px);
+}
+.in-our-innovation-lab-we-solve-complicated-puzzles-that-empower-the-urban-forestry-field-we-provide-climate-change-informed-forestry-best-practices-when-determining-what-trees-to-plant-where-to-plant-them-and-how-to-take-care-of-them-and-we-maintain-tree-equity-score-our-tool-that-trees-provide2 {
+  color: #052b0f;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 149px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.urban-forestry-btn {
+  background: linear-gradient(
+    90.84deg,
+    rgba(23, 66, 2, 0.9) 0%,
+    rgba(11, 167, 17, 1) 51.44507884979248%,
+    rgba(23, 66, 2, 0.99) 100%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  height: 45px;
+  position: relative;
+  align-self: auto;
+}
+.place-based-partnership {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.protect-and-restore-section {
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 575px;
+  height: 653px;
+  position: relative;
+}
+.protect-and-restore-img {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 338px;
+  position: relative;
+}
+.friendswithforest-1 {
+  border-radius: 15px;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.protect-and-restore-txt {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 244px;
+  position: static;
+}
+.tree-equity-txt3 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 3.48%;
+  left: 3.48%;
+  width: 93.04%;
+  top: 393px;
+}
+.we-lead-the-movement-to-protect-and-restore-urban-forests {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.american-forests-helps-build-movements-that-inspire-and-empower-action-at-a-large-scale-for-example-we-helped-create-the-trees-for-community-recovery-campaign-which-strives-to-get-more-federal-government-money-into-conserving-restoring-and-growing-urban-and-community-forests {
+  color: #052b0f;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.protect-and-restore-btn {
+  background: linear-gradient(
+    90.43deg,
+    rgba(23, 66, 2, 0.9) 0%,
+    rgba(11, 167, 17, 1) 49.000000953674316%,
+    rgba(23, 66, 2, 0.99) 100%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  height: 43px;
+  position: relative;
+  align-self: auto;
+}
+.learn-about-movement-building {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  width: 409px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-list {
+  background: linear-gradient(
+    102.04deg,
+    rgba(8, 50, 7, 1) 0%,
+    rgba(26, 118, 11, 0.63) 50%,
+    rgba(9, 185, 5, 0.58) 95.49999833106995%
+  );
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 662px;
+  position: relative;
+  overflow: hidden;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.card-list {
+  height: 418px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: 122px;
+  overflow: hidden;
+}
+.card-list2 {
+  display: flex;
+  flex-direction: row;
+  gap: 47px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 418px;
+  position: absolute;
+  right: -68.54%;
+  left: 0%;
+  width: 168.54%;
+  top: 1px;
+}
+.bacground-frame-2 {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.back-image {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 250px;
+  height: 418px;
+  position: relative;
+}
+.green-forest {
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 250px;
+  height: 418px;
+  position: relative;
+  object-fit: cover;
+}
+.card-txt {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 236.74px;
+  height: 108px;
+  position: absolute;
+  left: calc(50% - 118px);
+  top: 51px;
+}
+.blog {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.growing-trees-growing-hope-in-motor-city {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  width: 233px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bacground-frame-3 {
+  background: rgba(0, 0, 0, 0.32);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.forest-man {
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 250px;
+  height: 418.21px;
+  position: relative;
+  object-fit: cover;
+}
+.bacground-frame-4 {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.bacground-frame-5 {
+  background: rgba(0, 0, 0, 0.32);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.bacground-frame-6 {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.bacground-frame-7 {
+  background: rgba(0, 0, 0, 0.32);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.bacground-frame-1 {
+  background: rgba(0, 0, 0, 0.32);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 250px;
+  position: relative;
+}
+.bacground-frame-8 {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.related-txt {
+  padding: 30px 10px 30px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 79%;
+  top: 26px;
+}
+.related-news-updates {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tool-highligh-grp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 657.12px;
+  position: relative;
+}
+.tool-highlight-section {
+  align-self: stretch;
+  flex: 1;
+  position: static;
+}
+.tool-highlight-img {
+  width: 767px;
+  height: 657px;
+  position: absolute;
+  left: 0px;
+  top: 0.12px;
+  object-fit: cover;
+}
+.rectangle-3 {
+  background: rgba(62, 62, 62, 0.54);
+  width: 767px;
+  height: 657px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.tool-highlight-txt {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 508.67px;
+  height: 320px;
+  position: absolute;
+  left: 36.22px;
+  top: 59.12px;
+}
+.tool-highlight {
+  color: #e7b70f;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tree-equity-score-the-silver-seed-for-cities-across-america {
+  color: #fdfeff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tool-highlight-btn {
+  background: #e7b70f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 265px;
+  height: 54px;
+  position: relative;
+}
+.explore-the-tool {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-programs-section {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1457px;
+  position: relative;
+}
+.policy-section {
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 575px;
+  height: 653px;
+  position: absolute;
+  left: calc(50% - 287.5px);
+  top: 789.44px;
+}
+.policy-img-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 338px;
+  position: relative;
+}
+.policy-img {
+  border-radius: 15px;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.policy-txt-section {
+  align-self: stretch;
+  flex: 1;
+  position: static;
+}
+.tree-equity-txt4 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  position: absolute;
+  right: 3.48%;
+  left: 3.48%;
+  width: 93.04%;
+  top: 393px;
+}
+.policy {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.think-of-a-federal-policy-in-the-united-states-that-relates-to-the-country-s-forests-and-it-is-very-likely-that-american-forests-was-a-leader-in-getting-it-enacted-we-have-the-expertise-nimbleness-connections-and-convening-skills-needed-to-create-long-lasting-government-policies-and-programs {
+  color: #052b0f;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 127px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.policy-btn {
+  background: linear-gradient(
+    90.65deg,
+    rgba(23, 66, 2, 0.9) 0%,
+    rgba(11, 167, 17, 1) 50.999999046325684%,
+    rgba(23, 66, 2, 0.99) 96.49999737739563%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  height: 43px;
+  position: relative;
+  align-self: center;
+}
+.learn-about-policy-work {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.resilient-section {
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  width: 575px;
+  height: 653px;
+  position: absolute;
+  left: calc(50% - 287.5px);
+  top: 135.94px;
+}
+.resilient-img-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 338px;
+  position: relative;
+}
+.resilient-forest-img {
+  border-radius: 15px;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.resilient-section-txt {
+  align-self: stretch;
+  flex: 1;
+  position: static;
+}
+.resilient-forests-program {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.a-resilient-forests-program-typically-focuses-on-initiatives-aimed-at-preserving-and-enhancing-the-resilience-of-forest-ecosystems-in-the-face-of-various-challenges-including-climate-change-deforestation-invasive-species-and-wildfires {
+  color: #052b0f;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.resilient-btn {
+  background: linear-gradient(
+    90.76deg,
+    rgba(23, 66, 2, 0.9) 0%,
+    rgba(11, 167, 17, 1) 49.000000953674316%,
+    rgba(23, 66, 2, 0.99) 100%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  height: 43px;
+  position: relative;
+  align-self: center;
+}
+.learn-about-resilient-forest {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.explore-txt {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 87px;
+  position: absolute;
+  left: 0;
+  top: 39.94px;
+}
+.title-arrow-right-12 {
+  flex-shrink: 0;
+  width: 119.71px;
+  height: 24.14px;
+  position: relative;
+  overflow: hidden;
+}
+.group5 {
+  height: auto;
+  position: absolute;
+  right: 0.43%;
+  left: 0.43%;
+  width: 99.15%;
+  bottom: 0.81%;
+  top: 2.42%;
+  height: 96.77%;
+  overflow: visible;
+}
+.explore-our-other-programs {
+  color: #010f05;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-arrow-left-12 {
+  flex-shrink: 0;
+  width: 119.71px;
+  height: 24.14px;
+  position: relative;
+  overflow: hidden;
+}
+.group6 {
+  height: auto;
+  position: absolute;
+  right: 0.43%;
+  left: 0.43%;
+  width: 99.15%;
+  bottom: 2.42%;
+  top: 0.81%;
+  height: 96.77%;
+  overflow: visible;
+}
+.our-explore-section {
+  background: #17dc95;
+  padding: 0px 56px 0px 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 511px;
+  position: relative;
+}
+.our-explore {
+  flex: 1;
+  width: 574px;
+  position: static;
+}
+.support-our-work {
+  background: #17dc95;
+  padding: 25px 20px 25px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 479px;
+  position: absolute;
+  right: 12.58%;
+  left: 50.57%;
+  width: 36.85%;
+  top: 0px;
+}
+.plant-img {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.plant-img2 {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  object-fit: cover;
+}
+.support-our-work-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 232px;
+  position: relative;
+}
+.support-our-work2 {
+  color: #010f05;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.every-gift-helps-american-forests-restore-forests-in-cities-and-large-landscapes-for-people-wildlife-and-the-planet-give-today-and-help-us-protect-forests-for-tomorrow {
+  color: #052b0f;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.donate-btn {
+  background: #01200d;
+  border-radius: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 46px;
+  position: relative;
+}
+.donate-today {
+  color: #fdfdfd;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.get-involved {
+  background: #17dc95;
+  padding: 25px 20px 25px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 440px;
+  position: absolute;
+  right: 50.57%;
+  left: 12.58%;
+  width: 36.85%;
+  top: 0.07px;
+}
+.planting-img2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.planting-img3 {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  object-fit: cover;
+}
+.get-involved-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 212px;
+  position: relative;
+}
+.get-involved2 {
+  color: #010f05;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  display: block;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+}
+.there-is-a-lot-you-can-do-to-ensure-that-our-forests-in-cities-and-large-landscapes-are-healthy-for-generations-to-come-be-a-voice-for-forests {
+  color: #052b0f;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.take-action-btn {
+  background: #01200d;
+  border-radius: 20px;
+  padding: 5px 50px 5px 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 46px;
+  position: relative;
+}
+.take-action {
+  color: #fdfdfd;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-section {
+  background: #030839;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.what-we-do-section {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30px;
+  position: static;
+}
+.what-we-de-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2.61%;
+  left: 2.61%;
+  width: 94.78%;
+  top: 20px;
+}
+.what-we-de-txt {
+  flex: 1;
+  height: 24px;
+  position: relative;
+}
+.what-we-do {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.arrow3 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.our-approach-section {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30px;
+  position: static;
+}
+.our-approach-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2.61%;
+  left: 2.61%;
+  width: 94.78%;
+  top: 90px;
+}
+.our-approach-txt {
+  flex: 1;
+  height: 24px;
+  position: relative;
+}
+.our-approach {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.arrow5 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.resources-section {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30px;
+  position: static;
+}
+.resources-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2.61%;
+  left: 2.61%;
+  width: 94.78%;
+  top: 160px;
+}
+.resources-txt {
+  flex: 1;
+  height: 24px;
+  position: relative;
+}
+.resources {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.arrow7 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.get-involved-section {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30px;
+  position: static;
+}
+.get-involved-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2.61%;
+  left: 2.61%;
+  width: 94.78%;
+  top: 230px;
+}
+.get-involved-txt2 {
+  flex: 1;
+  height: 24px;
+  position: relative;
+}
+.get-involved3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.arrow9 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.about-us-section {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30px;
+  position: static;
+}
+.about-us-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2.61%;
+  left: 2.61%;
+  width: 94.78%;
+  top: 300px;
+}
+.about-us-txt {
+  flex: 1;
+  height: 24px;
+  position: relative;
+}
+.about-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.arrow11 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.address-section {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30px;
+  position: static;
+}
+.address-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2.61%;
+  left: 2.61%;
+  width: 94.78%;
+  top: 370px;
+  height:25px
+}
+.address-txt {
+  flex: 1;
+  height: 24px;
+  position: relative;
+}
+.address {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.arrow13 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.contact-us-section {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 30px;
+  position: static;
+}
+.contact-us-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2.61%;
+  left: 2.61%;
+  width: 94.78%;
+  top: 440px;
+}
+.contact-us-txt {
+  flex: 1;
+  height: 24px;
+  position: relative;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.arrow15 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  overflow: visible;
+}
+.footer-contact-frame {
+  background: #030839;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 120px;
+  position: relative;
+}
+.footer-contact {
+  position: absolute;
+  inset: 0;
+}
+.footer-layout {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 131px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: -0.12px;
+}
+.connect-online {
+  padding: 0px 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 277.45px;
+  height: 123px;
+  position: absolute;
+  right: 63.83%;
+  left: 0%;
+  width: 36.17%;
+  top: 0.5px;
+}
+.connect-with-us-online {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.connect-online-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 50px;
+  position: relative;
+}
+.facebook {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+  height: 40px;
+}
+.instagram {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+  height: 40px;
+}
+.you-tube {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+  height: 40px;
+}
+.linked-in {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+  height: 40px;
+}
+.twitter {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+  height: 40px;
+}
+.policy-txt-frame {
+  background: #030839;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 55px;
+  position: relative;
+}
+.copy-right-txt {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  top: -10.12px;
+  height: 80px;
+}
+.copyright-2024-american-forests-all-rights-reserved-created-by-constructive {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.copyright-2024-american-forests-all-rights-reserved-created-by-constructive-span {
+  color: #ffffff;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.copyright-2024-american-forests-all-rights-reserved-created-by-constructive-span2 {
+  color: #ffffff;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+}
